@@ -45,7 +45,7 @@ with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 profile_pic = Image.open(profile_pic)
 
-st.subheader("My Profile")
+st.subheader("My Resume")
 st.write("---")
 
 
