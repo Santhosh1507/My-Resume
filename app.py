@@ -23,13 +23,6 @@ SOCIAL_MEDIA = {
     "💻 LinkedIn": "https://www.linkedin.com/in/santhosh1507/",
     "🔏 GitHub": "https://github.com/Santhosh1507",
 }
-PROJECTS = {
-    "🏆 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
-    "🏆 Income and Expense Tracker - Web app with NoSQL database": "https://youtu.be/3egaMfE9388",
-    "🏆 Desktop Application - Excel2CSV converter with user settings & menubar": "https://youtu.be/LzCfNanQ_9c",
-    "🏆 MyToolBelt - Custom MS Excel add-in to combine Python & Excel": "https://pythonandvba.com/mytoolbelt/",
-}
-
 Portfolio ={
     "🌐 https://santhosh-portfolio-web.netlify.app/": "https://santhosh-portfolio-web.netlify.app/",
 }
@@ -96,30 +89,68 @@ st.write(
 """
 )
 
-st.write('\n')
-st.subheader("Skills")
-st.write("---")
-st.write(
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.write('\n')
+    st.subheader("Skills")
+    st.write("---")
+    st.write(
+        """
+    - 👩‍💻 HTML, CSS, Javascript
+    - 👩‍💻 Bootstrap, Git
+    - 👩‍💻 React js, tailwindcss
+    - 👩‍💻 SQL, MySql, MongoDB
+    - 👩‍💻 Python
+    - 👩‍💻 Java
+    - 👩‍💻 Node js
     """
-- 👩‍💻 HTML, CSS, Javascript
-- 👩‍💻 Bootstrap, Git
-- 👩‍💻 React js, tailwindcss
-- 👩‍💻 SQL, MySql, MongoDB
-- 👩‍💻 Python
-- 👩‍💻 Java
-- 👩‍💻 Node js
-"""
-)
+    )
+
+with col2:
+    st.write('\n')
+    st.subheader("Experience")
+    st.write("---")
+    st.write(
+        """
+    - 👨🏻‍🎓 Fresher
+
+    """
+    )
+
+    st.write('\n')
+    st.subheader("Language")
+    st.write("---")
+    st.write(
+        """
+    - 🏴󠁩󠁮󠁴󠁮󠁿 Tamil
+    - 🗼 English
+
+    """
+    )
+    
+
+# st.write('\n')
+# st.subheader("Skills")
+# st.write("---")
+# st.write(
+#     """
+# - 👩‍💻 HTML, CSS, Javascript
+# - 👩‍💻 Bootstrap, Git
+# - 👩‍💻 React js, tailwindcss
+# - 👩‍💻 SQL, MySql, MongoDB
+# - 👩‍💻 Python
+# - 👩‍💻 Java
+# - 👩‍💻 Node js
+# """
+# )
 
 st.write('\n')
-st.subheader("Experience")
+st.subheader("Certification")
 st.write("---")
-st.write(
-    """
-- 👨🏻‍🎓 Fresher
-
-"""
-)
+st.markdown("🚀 October  2022 &mdash; Full Stack Development In Infosys Springboard ")
+st.markdown("🚀 August   2023 &mdash; AI For India 2.0 Course In By GUVI ")
+st.markdown("🚀 May  2023 &mdash; Introduction to Networks Course ")
+st.markdown("🚀 March  2024 &mdash; React (Basic) - HackerRank ")
 
 st.write('\n')
 st.subheader("Portfolio (Front-End)")
